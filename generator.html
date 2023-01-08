@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Your Safe Space</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <!-- Link to favicon -->
+    <link rel="icon" type="image/png" href="assets/logo.png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@600&family=PT+Serif&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&family=EB+Garamond:wght@500&family=Maven+Pro:wght@600&family=PT+Serif&family=Source+Serif+Pro&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <script src="script.js" defer></script>
+
+    <nav>
+        <ul class="menu">
+            <li class="logo"><a href="index.html" href="resources.html" href="tips.html" href="learnmore.html"
+                    href="generator.html">YOUR SAFE SPACE</a></li>
+            <li class="item"><a href="index.html">Home</a></li>
+            <li class="item has-submenu">
+                <a tabindex="0">Resources</a>
+                <ul class="submenu">
+                    <li class="subitem"><a href="resources.html#youngadults">Help for Young adults</a></li>
+                    <li class="subitem"><a link href="resources.html#oldadults">Help for Older adults</a></li>
+                    <li class="subitem"><a href="resources.html#healthexperts">Mental Health Experts</a></li>
+                </ul>
+            </li>
+            <li class="item has-submenu">
+                <a tabindex="0">Tips</a>
+                <ul class="submenu">
+                    <li class="subitem"><a href="tips.html#meditation">Meditation</a></li>
+                    <li class="subitem"><a href="tips.html#selfcare">Self Care Tips</a></li>
+                    <li class="subitem"><a href="tips.html#takecare">How to take care of your mental health</a></li>
+                </ul>
+            </li>
+            <li class="item has-submenu">
+                <a tabindex="0">Learn More</a>
+                <ul class="submenu">
+                    <li class="subitem"><a href="learnmore.html#adhd">ADHD</a></li>
+                    <li class="subitem"><a href="learnmore.html#anxiety">Anxiety</a></li>
+                    <li class="subitem"><a href="learnmore.html#bipolar">Bipolar Disorder</a></li>
+                    <li class="subitem"><a href="learnmore.html#depression">Depression</a></li>
+                    <li class="subitem"><a href="learnmore.html#ptsd">PTSD</a></li>
+                </ul>
+            </li>
+            <li class="item has-submenu">
+                <a tabindex="0">Generator</a>
+                <ul class="submenu">
+                    <li class="subitem"><a href="generator.html#generator">Jokes Generator</a></li>
+                    <li class="subitem"><a href="generator.html#buzzfeed">Buzzfeed quizzes to do</a></li>
+                </ul>
+            </li>
+            <li class="toggle"><a href="#">☰</a></li>
+        </ul>
+    </nav>
+
+    <main id="generator"></main>
+    <br><br>
+    <h1 id="joketitle" class="gradient">Joke Generator</h1>
+    <h1 class="line">────────────────────────────────────────────────────────</h1>
+    <div class="jokeheading">
+        <div class="jokecontainer">
+            <div class="joketext">
+                <h1 class="genfacttop">Click the button below to see a joke!<br>
+                    Hopefully it makes your day :)</h1>
+                <h1 class="line">────────────</h1>
+                <button id="jokeBtn">Good Vibes</button>
+            </div>
+        </div>
+    </div>
+    <h1 class="line">────────────────────────────────────────────────────────</h1>
+    <div class="jokelines">
+        <p id="joke"></p>
+    </div>
+
+    <br></br><br></br><br></br><br></br><br></br>
+
+    <main id="buzzfeed">
+        <h1 id="buzztitle" class="gradient2">Buzzfeed Quizzes</h1>
+        <h1 class="line">────────────────────────────────────────────────────────</h1>
+        <h2 class="buzzh2">Food Related Quizzes</h2><br>
+        <div class="buzzfeedquizzes">
+            <div class="buzzfeedchild">
+                <img class="buzzimg" src="assets/pizza.png" width="500" height="500">
+                <button class="buzzbox"><a href="https://www.buzzfeed.com/justinabarca/my-veins-pump-pizza"
+                        target=”_blank”>What
+                        Kind Of Pizza Are You?</a></button>
+            </div>
+            <div class="buzzfeedchild">
+                <img class="buzzimg" src="assets/icecream.png" width="500" height="500">
+                <button class="buzzbox"><a
+                        href="https://www.buzzfeed.com/chickenbro/we-can-guess-what-ice-cream-flavor-you-are-with-96-7zc0bsit5y"
+                        target=”_blank”>What Ice Cream Flavor Are You?</a></button>
+            </div>
+            <div class="buzzfeedchild">
+                <img class="buzzimg" src="assets/food.png" width="500" height="500">
+                <button class="buzzbox"><a
+                        href="https://www.buzzfeed.com/joannaborns/quiz-what-food-matches-your-personality"
+                        target=”_blank”>What Food Matches Your Personality?</a></button>
+            </div>
+        </div>
+
+        <br><br><br>
+
+        <h1 class="line">────────────────────────────────────────────────────────</h1>
+        <h2 class="buzzh2">Celebrity Related Quizzes</h2><br>
+        <div class="buzzfeedquizzes">
+            <div class="buzzfeedchild">
+                <img class="buzzimg1" src="assets/celeb1.png" width="500" height="500">
+                <button class="buzzbox1"><a
+                        href="https://www.buzzfeed.com/salimahmccullough/celeb-last-name-trivia-quiz"
+                        target=”_blank”>Last Names of Celebs</a></button>
+            </div>
+            <div class="buzzfeedchild">
+                <img class="buzzimg1" src="assets/celeb2.png" width="500" height="500">
+                <button class="buzzbox1"><a href="https://www.buzzfeed.com/tayloraowens/celebrity-identification-quiz"
+                        target=”_blank”>Identify Famous Celebs</a></button>
+            </div>
+            <div class="buzzfeedchild">
+                <img class="buzzimg1" src="assets/celeb3.png" width="500" height="500">
+                <button class="buzzbox1"><a href="https://www.buzzfeed.com/angelicaamartinez/celebrities-aged-up-quiz"
+                        target=”_blank”>Identify Aged up Celebs</a></button>
+            </div>
+        </div>
+
+        <br><br><br>
+
+        <h1 class="line">────────────────────────────────────────────────────────</h1>
+        <h2 class="buzzh2">TV Related Quizzes</h2><br>
+        <div class="buzzfeedquizzes">
+            <div class="buzzfeedchild">
+                <img class="buzzimg2" src="assets/tv1.png" width="500" height="500">
+                <button class="buzzbox2"><a
+                        href="https://www.buzzfeed.com/chelseatot/can-you-match-the-fictional-restaurant-to-the-tv-s-arx27s7m9v"
+                        target=”_blank”>Match Fictional Restaurants</a></button>
+            </div>
+            <div class="buzzfeedchild">
+                <img class="buzzimg2" src="assets/tv2.png" width="500" height="500">
+                <button class="buzzbox2"><a
+                        href="https://www.buzzfeed.com/robbedeb2/can-you-guess-who-said-these-famous-sitcom-quotes-2xulp"
+                        target=”_blank”>Match the Sitcom</a></button>
+            </div>
+            <div class="buzzfeedchild">
+                <img class="buzzimg2" src="assets/tv3.png" width="500" height="500">
+                <button class="buzzbox2"><a href="https://www.buzzfeed.com/sam_cleal/tv-and-movie-outfit-quiz"
+                        target=”_blank”>Identify the Costumes</a></button>
+            </div>
+        </div>
+    </main>
+
+    <br><br><br>
+
+    <footer>Anjali Patidar • 2023 • Git Init Hackathon</footer>
+
+</body>
+
+</html>
